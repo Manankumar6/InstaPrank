@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+body{
+background: url('bg.gif');
+}
+.container {
+    width: 100%;
+    height: auto;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gif_container {
+    
+    overflow: hidden;
+    margin: 10px;
+}
+img{
+    width: 500px; /* Set a fixed width or adjust as needed */
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.content {
+    margin: 10px;
+    width: 500px; /* Set a fixed width or adjust as needed */
+    height: 500px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 52, 52);
+}
+
+input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 3px solid green;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: red;
+    
+}
+
+button {
+    width: 100px;
+    padding: 8px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    background-color: rgb(81, 129, 9);
+   font-size: 15px;
+   color: white;
+    outline: none;
+    border: none;
+}
+
+.result {
+    background-color: black;
+    color: rgb(0, 255, 0);
+    width: 700px;
+    font-size: 30px;
+    height: 460px;
+   border: 3px solid red;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+.alert {
+    width: 700px;
+    height: 460px;
+
+    position: absolute;
+ 
+    color: rgb(253, 79, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    visibility: hidden;
+    background-color: rgb(32, 29, 29);
+    flex-direction: column;
+  }
+
+
+
+  .active {
+    visibility: visible;
+  }
+h15{
+    font-size: 15px;
+        color: gray;
+}
